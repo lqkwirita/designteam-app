@@ -30,6 +30,10 @@ const ROLE_CAPABILITIES: Record<AgentRole, string[]> = {
   'information-designer': ['data visualization', 'information graphics', 'dashboard design', 'data storytelling'],
   'environmental-designer': ['wayfinding systems', 'exhibition design', 'environmental graphics', 'spatial narrative'],
   'experience-designer': ['interactive installations', 'sonic branding', 'multisensory design', 'immersive experiences'],
+  'product-designer': ['industrial design', 'form development', 'material engineering', 'ergonomics'],
+  'type-designer': ['typeface design', 'lettering', 'variable fonts', 'typographic systems'],
+  'cultural-strategist': ['localization strategy', 'multilingual design', 'cultural adaptation', 'bi-scriptural identity'],
+  'packaging-designer': ['structural packaging', 'dieline development', 'shelf presence', 'unboxing experience'],
 }
 
 const SYNERGY_PAIRS: [AgentRole, AgentRole, string][] = [
@@ -63,6 +67,20 @@ const SYNERGY_PAIRS: [AgentRole, AgentRole, string][] = [
   ['experience-designer', 'design-engineer', 'Interactive installation builds'],
   ['experience-designer', 'brand-strategist', 'Multisensory brand expression'],
   ['experience-designer', 'environmental-designer', 'Physical-digital spatial experiences'],
+  ['product-designer', 'packaging-designer', 'Coordinated product and packaging form'],
+  ['product-designer', 'brand-strategist', 'Brand-driven physical product language'],
+  ['product-designer', 'environmental-designer', 'Product integration into spatial contexts'],
+  ['type-designer', 'graphic-designer', 'Custom type-driven visual identity'],
+  ['type-designer', 'brand-strategist', 'Typographic brand ownership'],
+  ['type-designer', 'editorial-designer', 'Publication-grade typographic systems'],
+  ['type-designer', 'design-engineer', 'Web-optimized variable font implementation'],
+  ['cultural-strategist', 'brand-strategist', 'Globally coherent brand systems'],
+  ['cultural-strategist', 'copywriter', 'Culturally adapted messaging'],
+  ['cultural-strategist', 'type-designer', 'Multi-script typeface pairing'],
+  ['cultural-strategist', 'ux-designer', 'Locale-aware interaction patterns'],
+  ['packaging-designer', 'print-designer', 'Production-ready packaging artwork'],
+  ['packaging-designer', 'graphic-designer', 'Surface graphics for 3D packaging'],
+  ['packaging-designer', 'brand-strategist', 'Packaging as brand experience'],
 ]
 
 // ---------------------------------------------------------------------------

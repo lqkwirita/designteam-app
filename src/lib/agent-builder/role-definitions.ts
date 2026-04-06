@@ -213,6 +213,46 @@ export const AGENT_ROLE_DEFINITIONS: Record<AgentRole, AgentRoleMeta> = {
     baseSkillKeys: ['experience-designer'],
     color: '#f59e0b',
   },
+  'product-designer': {
+    role: 'product-designer',
+    displayName: 'Product Designer',
+    description:
+      'Designs physical objects, consumer products, and hardware — form, materials, ergonomics, and sustainability-centered industrial design.',
+    avatarKey: 'product-designer',
+    defaultPersonality: personality(-2, 2, -1, 1, 0),
+    baseSkillKeys: ['product-designer'],
+    color: '#64748b',
+  },
+  'type-designer': {
+    role: 'type-designer',
+    displayName: 'Type Designer',
+    description:
+      'Creates custom typefaces, lettering, and typographic systems — the craft of designing letterforms that give brands a unique voice.',
+    avatarKey: 'type-designer',
+    defaultPersonality: personality(-1, 1, -2, -1, 0),
+    baseSkillKeys: ['type-designer'],
+    color: '#1d4ed8',
+  },
+  'cultural-strategist': {
+    role: 'cultural-strategist',
+    displayName: 'Cultural Strategist',
+    description:
+      'Makes brands work across cultures, languages, and scripts — multilingual systems, localization strategy, and bi-scriptural identity.',
+    avatarKey: 'cultural-strategist',
+    defaultPersonality: personality(-1, 0, -1, 0, -2),
+    baseSkillKeys: ['cultural-strategist'],
+    color: '#be185d',
+  },
+  'packaging-designer': {
+    role: 'packaging-designer',
+    displayName: 'Packaging Designer',
+    description:
+      'Designs structural packaging, unboxing experiences, and retail shelf presence — 3D form, materials, and the first physical brand interaction.',
+    avatarKey: 'packaging-designer',
+    defaultPersonality: personality(1, 1, 0, 1, 0),
+    baseSkillKeys: ['packaging-designer'],
+    color: '#65a30d',
+  },
 }
 
 export const AGENT_ROLE_LIST: AgentRoleMeta[] = Object.values(

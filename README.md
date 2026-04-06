@@ -14,7 +14,7 @@ npx designteam install abc123
 
 ## What You Get
 
-- **19 agent roles** -- researcher, copywriter, graphic designer, UX designer, creative director, information designer, environmental designer, experience designer, and 11 more
+- **23 agent roles** -- researcher, copywriter, graphic designer, UX designer, creative director, type designer, product designer, cultural strategist, packaging designer, and 14 more
 - **17 installable skills** -- 16 role-based + 1 orchestrator that classifies projects and activates specialists in sequence
 - **Personality system** -- 5 bipolar sliders (-5 to +5), 32 traits across 4 categories (temperament, work style, social, mindset)
 - **AI team builder** -- describe your project, Claude generates a team with roles, personalities, and traits
