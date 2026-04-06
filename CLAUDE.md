@@ -1,6 +1,6 @@
 # Design Team
 
-**Design Team** is an AI design crew that ships. Not just pretty pictures -- research, strategy, copy, design, code, review, deploy. 16 agent roles, 6 Claude Code agents, 17 installable skills, one workflow.
+**Design Team** is an AI design crew that ships. Not just pretty pictures -- research, strategy, copy, design, code, review, deploy. 19 agent roles, 6 Claude Code agents, 17 installable skills, one workflow.
 
 - Website: https://designteam.app
 - Install: `npx skills add pablostanley/designteam-app`

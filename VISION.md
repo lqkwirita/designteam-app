@@ -144,7 +144,7 @@ From gstack learnings — the Design Team speaks naturally:
 ### Web App (designteam.app)
 - [x] Homepage with skills.sh install CTA
 - [x] Full-page team builder (/build)
-- [x] 16 agent roles with personality sliders
+- [x] 19 agent roles with personality sliders
 - [x] Bipolar sliders (-5 to +5, center = neutral)
 - [x] 32 personality traits across 4 categories (temperament, work style, social, mindset)
 - [x] Custom prompt per agent
@@ -185,7 +185,7 @@ From gstack learnings — the Design Team speaks naturally:
 - [ ] "My Teams" dashboard for logged-in users
 - [ ] CLI `--team abc123` flag support
 - [ ] OpenAPI spec for /api/teams
-- [ ] More robot avatars (16 roles sharing 9 images)
+- [ ] More robot avatars (19 roles sharing 9 images)
 
 ### Phase 2: Efecto Deep Integration
 - [x] postMessage bridge: designteam.app iframe → Efecto parent

@@ -183,6 +183,36 @@ export const AGENT_ROLE_DEFINITIONS: Record<AgentRole, AgentRoleMeta> = {
     baseSkillKeys: ['seo-specialist'],
     color: '#f97316',
   },
+  'information-designer': {
+    role: 'information-designer',
+    displayName: 'Information Designer',
+    description:
+      'Turns complex data into visual narratives — charts, infographics, dashboards, and data stories grounded in data humanism.',
+    avatarKey: 'information-designer',
+    defaultPersonality: personality(-1, 1, -2, -1, -1),
+    baseSkillKeys: ['information-designer'],
+    color: '#10b981',
+  },
+  'environmental-designer': {
+    role: 'environmental-designer',
+    displayName: 'Environmental Designer',
+    description:
+      'Designs for physical space — exhibitions, wayfinding, signage, and environmental graphics where typography meets architecture.',
+    avatarKey: 'environmental-designer',
+    defaultPersonality: personality(-2, 2, 0, -1, 1),
+    baseSkillKeys: ['environmental-designer'],
+    color: '#78716c',
+  },
+  'experience-designer': {
+    role: 'experience-designer',
+    displayName: 'Experience Designer',
+    description:
+      'Creates multisensory experiences across digital and physical — interactive installations, sonic branding, and immersive brand moments.',
+    avatarKey: 'experience-designer',
+    defaultPersonality: personality(-3, -2, -4, 0, -1),
+    baseSkillKeys: ['experience-designer'],
+    color: '#f59e0b',
+  },
 }
 
 export const AGENT_ROLE_LIST: AgentRoleMeta[] = Object.values(

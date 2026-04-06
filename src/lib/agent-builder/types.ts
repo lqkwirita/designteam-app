@@ -27,6 +27,9 @@ export type AgentRole =
   | 'accessibility-specialist'
   | 'content-strategist'
   | 'seo-specialist'
+  | 'information-designer'
+  | 'environmental-designer'
+  | 'experience-designer'
 
 export const AGENT_ROLES: AgentRole[] = [
   'researcher',
@@ -45,6 +48,9 @@ export const AGENT_ROLES: AgentRole[] = [
   'accessibility-specialist',
   'content-strategist',
   'seo-specialist',
+  'information-designer',
+  'environmental-designer',
+  'experience-designer',
 ]
 
 // ---------------------------------------------------------------------------
@@ -112,7 +118,7 @@ export const PERSONALITY_TRAITS: readonly string[] = Object.values(TRAIT_CATEGOR
 // Constants
 // ---------------------------------------------------------------------------
 
-export const MAX_TEAM_SIZE = 16
+export const MAX_TEAM_SIZE = 19
 export const MAX_TEAMS = 20
 
 // ---------------------------------------------------------------------------
@@ -209,6 +215,9 @@ const AGENT_NAMES: Record<AgentRole, string> = {
   'accessibility-specialist': 'Atlas',
   'content-strategist': 'Story',
   'seo-specialist': 'Signal',
+  'information-designer': 'Datum',
+  'environmental-designer': 'Locus',
+  'experience-designer': 'Sense',
 }
 
 export function createDefaultAgent(role: AgentRole, meta?: AgentRoleMeta): Agent {

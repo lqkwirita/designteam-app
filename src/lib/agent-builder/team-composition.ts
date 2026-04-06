@@ -27,6 +27,9 @@ const ROLE_CAPABILITIES: Record<AgentRole, string[]> = {
   'accessibility-specialist': ['WCAG compliance', 'assistive technology', 'color contrast', 'keyboard navigation'],
   'content-strategist': ['content architecture', 'editorial planning', 'taxonomy', 'content governance'],
   'seo-specialist': ['keyword strategy', 'on-page SEO', 'structured data', 'technical SEO'],
+  'information-designer': ['data visualization', 'information graphics', 'dashboard design', 'data storytelling'],
+  'environmental-designer': ['wayfinding systems', 'exhibition design', 'environmental graphics', 'spatial narrative'],
+  'experience-designer': ['interactive installations', 'sonic branding', 'multisensory design', 'immersive experiences'],
 }
 
 const SYNERGY_PAIRS: [AgentRole, AgentRole, string][] = [
@@ -50,6 +53,16 @@ const SYNERGY_PAIRS: [AgentRole, AgentRole, string][] = [
   ['content-strategist', 'seo-specialist', 'SEO-informed content planning'],
   ['accessibility-specialist', 'ux-designer', 'Inclusive interaction design'],
   ['motion-designer', 'ux-designer', 'Purposeful interaction motion'],
+  ['information-designer', 'researcher', 'Data-driven visual insights'],
+  ['information-designer', 'ux-designer', 'Evidence-based dashboard design'],
+  ['information-designer', 'design-engineer', 'Interactive data visualization'],
+  ['environmental-designer', 'graphic-designer', 'Brand-driven spatial graphics'],
+  ['environmental-designer', 'print-designer', 'Production-ready environmental fabrication'],
+  ['environmental-designer', 'accessibility-specialist', 'Inclusive wayfinding systems'],
+  ['experience-designer', 'motion-designer', 'Choreographed immersive moments'],
+  ['experience-designer', 'design-engineer', 'Interactive installation builds'],
+  ['experience-designer', 'brand-strategist', 'Multisensory brand expression'],
+  ['experience-designer', 'environmental-designer', 'Physical-digital spatial experiences'],
 ]
 
 // ---------------------------------------------------------------------------
